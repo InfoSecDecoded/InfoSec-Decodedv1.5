@@ -1,0 +1,260 @@
+/* ===============================
+GENERAL STYLING 
+================================== */
+
+main {
+  flex: 1 0 auto;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title-header {
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.text-dark-shadow {
+  text-shadow: -2px 1px 6px #000000;
+}
+
+.text-light-grey {
+  color: #393F44;
+}
+
+.text-red-accent {
+  color: #b71c1c;
+}
+
+.text-navy-blue {
+  color: #133BB1;
+}
+
+.text-btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  display: inline-block;
+  text-align:center;
+}
+
+.and-more {
+  color: #133BB1;
+}
+
+.more-padding {
+  padding: 5px 10px;
+}
+
+/* ===============================
+NAVBAR STYLING
+================================== */
+
+nav .brand-logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidenav {
+  padding-top: 3rem;
+}
+
+.logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.logo>img {
+  vertical-align: middle;
+  padding-right: 6px;
+  width: 55px;
+}
+
+.container {
+  width: 80%
+}
+
+.survey-btn {
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: limegreen
+}
+
+/* ===============================
+SLIDER SECTION 
+================================== */
+.slider-title {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+/* ===============================
+ABOUT SECTION 
+================================== */
+
+.about-paragraph {
+  padding-bottom: 80px;
+}
+
+/* ===============================
+ SERVICES SECTION 
+================================== */
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo {
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+
+/* ===============================
+SOLUTIONS SECTION 
+================================== */
+
+.program-img-style {
+  padding-top: 100px;
+}
+
+.grid-bottom-padding {
+  padding-bottom: 100px;
+}
+
+.title-resources {
+  font-weight: bold;
+}
+
+.modal-header {
+  font-weight: bold;
+}
+
+.modal-hover-list:hover {
+  color: #42a5f5;
+}
+
+/* ===============================
+TOKENS SECTION 
+================================== 
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+*/
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ===============================
+TEAM SECTION 
+================================== */
+
+.partner-img {
+  /* margin-left: 50px; */
+  padding: 10px;
+}
+
+.partner-img-mobile {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* ===============================
+NEWS & EVENTS SECTION 
+================================== */
+
+.section-icons {
+  margin-top: 100px;
+}
+
+.news-events-row-styling {
+  padding-bottom: 50px;
+}
+
+.news-modal-size {
+  width: 90%;
+  height: 90%;
+  overflow: visible;
+  max-height:100%;
+}
+
+.news-text-styling {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+FOOTER SECTION 
+================================== */
+
+footer .copyright {
+  /* color: #5D0F0D; */
+  font-size: small;
+}
+
+.page-footer {
+  background-color: #757575;
+}
+
+.social-media {
+  color: #ffffff;
+  padding-left: 10px;
+}
